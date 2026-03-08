@@ -10,6 +10,7 @@ build/
 .env
 .venv/
 venv/
+.streamlit/secrets.toml
 
 # Data (too large for git, query log is private)
 data/raw/*.json

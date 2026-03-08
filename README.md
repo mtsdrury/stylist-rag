@@ -32,6 +32,10 @@ User Query
 5. **Retrieval**: Embeds user queries with the same model, performs cosine similarity search, and optionally reranks candidates with a cross-encoder.
 6. **Generation**: Constructs a grounded prompt with retrieved context and generates styling advice via OpenAI or HuggingFace Inference API. The LLM cites source articles in its response.
 
+## Live Demo
+
+**[Try it live on Streamlit Cloud](https://stylist-rag.streamlit.app)**
+
 ## Setup
 
 ```bash
